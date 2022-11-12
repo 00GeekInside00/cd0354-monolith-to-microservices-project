@@ -7,7 +7,7 @@ data:
   POSTGRES_HOST: postgres.c7diagpvcf3u.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   AWS_MEDIA_BUCKET: udgram
-  AWS_REGION: us-west-1
+  AWS_REGION: us-east-1
   AWS_PROFILE: default
   JWT_SECRET: secret
   URL: http://localhost:8000
