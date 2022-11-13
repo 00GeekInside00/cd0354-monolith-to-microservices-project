@@ -6,7 +6,7 @@ metadata:
   labels:
     app: reverseproxy
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: reverseproxy
@@ -81,4 +81,4 @@ spec:
             configMapKeyRef:
               name: env-config
               key: JWT_SECRET
-      restartPolicy: Always
+      
