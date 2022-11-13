@@ -80,4 +80,3 @@ spec:
             configMapKeyRef:
               name: env-config
               key: JWT_SECRET
-      restartPolicy: Always

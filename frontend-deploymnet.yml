@@ -18,7 +18,7 @@ spec:
       - name: frontend
         image: geekinside/udagram-frontend
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         resources:
           limits:
             cpu: 500m
@@ -80,4 +80,4 @@ spec:
             configMapKeyRef:
               name: env-config
               key: JWT_SECRET
-      restartPolicy: Always
+      

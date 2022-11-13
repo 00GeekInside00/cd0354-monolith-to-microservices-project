@@ -4,7 +4,6 @@ metadata:
   labels:
     app: reverseproxy
   name: reverseproxy
-  # selfLink: /api/v1/namespaces/default/services/reverseproxy
 spec:
   ports:
   - port: 8080
